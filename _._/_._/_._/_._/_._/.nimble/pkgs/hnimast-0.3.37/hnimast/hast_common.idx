@@ -1,0 +1,206 @@
+`[]`	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#[].t,PNode,HSlice[int,BackwardsIndex]	hast_common: `[]`(node: PNode; slice: HSlice[int, BackwardsIndex]): untyped	
+`?`	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#?,PNode	hast_common: `?`(node: PNode): bool	
+`[]`	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#[],PNode,int,set[TNodeKind]	hast_common: `[]`(node: PNode; idx: int; kinds: set[TNodeKind]): PNode	
+add	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#add,PNode,seq[PNode]	hast_common: add(n: PNode; sub: seq[PNode])	
+nnkStrKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nnkStrKinds	hast_common: nnkStrKinds	
+nnkStringKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nnkStringKinds	hast_common: nnkStringKinds	
+nnkIntKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nnkIntKinds	hast_common: nnkIntKinds	
+nnkFloatKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nnkFloatKinds	hast_common: nnkFloatKinds	
+nnkLiteralKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nnkLiteralKinds	hast_common: nnkLiteralKinds	
+nnkTokenKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nnkTokenKinds	hast_common: nnkTokenKinds	
+nnkIdentKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nnkIdentKinds	hast_common: nnkIdentKinds	
+nnkWrapTy	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nnkWrapTy	hast_common: nnkWrapTy	
+nnkProcKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nnkProcKinds	hast_common: nnkProcKinds	
+dekTypeKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#dekTypeKinds	hast_common: dekTypeKinds	
+nnkProcDeclKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nnkProcDeclKinds	hast_common: nnkProcDeclKinds	
+nnkDeclKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nnkDeclKinds	hast_common: nnkDeclKinds	
+nkStrKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nkStrKinds	hast_common: nkStrKinds	
+nkStringKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nkStringKinds	hast_common: nkStringKinds	
+nkIntKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nkIntKinds	hast_common: nkIntKinds	
+nkFloatKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nkFloatKinds	hast_common: nkFloatKinds	
+nkLiteralKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nkLiteralKinds	hast_common: nkLiteralKinds	
+nkTokenKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nkTokenKinds	hast_common: nkTokenKinds	
+nkProcDeclKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nkProcDeclKinds	hast_common: nkProcDeclKinds	
+nkStmtBlockKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nkStmtBlockKinds	hast_common: nkStmtBlockKinds	
+nkIdentDeclKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nkIdentDeclKinds	hast_common: nkIdentDeclKinds	
+nkAllDeclKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nkAllDeclKinds	hast_common: nkAllDeclKinds	
+skProcDeclKinds	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#skProcDeclKinds	hast_common: skProcDeclKinds	
+ProcDeclNode	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#ProcDeclNode	hast_common: ProcDeclNode	
+asProcDecl	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#asProcDecl,N	hast_common: asProcDecl[N](n: N): ProcDeclNode[N]	
+asNode	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#asNode,ProcDeclNode[NimNode]	hast_common: asNode(decl: ProcDeclNode[NimNode]): NimNode	
+asNode	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#asNode,ProcDeclNode[PNode]	hast_common: asNode(decl: ProcDeclNode[PNode]): PNode	
+name	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#name,ProcDeclNode[N]	hast_common: name[N](decl: ProcDeclNode[N]): N	
+pattern	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#pattern,ProcDeclNode[N]	hast_common: pattern[N](decl: ProcDeclNode[N]): N	
+genericParams	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#genericParams,ProcDeclNode[N]	hast_common: genericParams[N](decl: ProcDeclNode[N]): N	
+params	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#params,ProcDeclNode[N]	hast_common: params[N](decl: ProcDeclNode[N]): N	
+returnType	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#returnType,ProcDeclNode[N]	hast_common: returnType[N](decl: ProcDeclNode[N]): N	
+argumentList	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#argumentList,ProcDeclNode[N]	hast_common: argumentList[N](decl: ProcDeclNode[N]): seq[N]	
+body	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#body,ProcDeclNode[N]	hast_common: body[N](decl: ProcDeclNode[N]): N	
+pragmas	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#pragmas,ProcDeclNode[N]	hast_common: pragmas[N](decl: ProcDeclNode[N]): N	
+oakCaseOfBranch	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#oakCaseOfBranch	ObjectAnnotKind.oakCaseOfBranch	
+oakObjectToplevel	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#oakObjectToplevel	ObjectAnnotKind.oakObjectToplevel	
+oakObjectField	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#oakObjectField	ObjectAnnotKind.oakObjectField	
+ObjectAnnotKind	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#ObjectAnnotKind	hast_common: ObjectAnnotKind	
+currLInfo	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#currLInfo.t	hast_common: currLInfo(): untyped	
+defaultIInfo	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#defaultIInfo	hast_common: defaultIInfo	
+getInfo	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#getInfo,NimNode	hast_common: getInfo(n: NimNode): LineInfo	
+getInfo	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#getInfo,PNode	hast_common: getInfo(n: PNode): TLineInfo	
+dropPar1	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#dropPar1,NimNode	hast_common: dropPar1(nn: NimNode): NimNode	
+`$!`	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#$!,NimNode	hast_common: `$!`(n: NimNode): string	
+`$!`	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#$!,PNode	hast_common: `$!`(n: PNode): string	
+`$`	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#$,PNode	hast_common: `$`(n: PNode): string	
+`&amp;`	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#&,PNode,string	hast_common: `&amp;`(n: PNode; str: string): PNode	
+getStrVal	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#getStrVal,NimNode	hast_common: getStrVal(n: NimNode): string	
+getStrVal	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#getStrVal,PNode,bool	hast_common: getStrVal(p: PNode; doRaise: bool = true): string	
+`=~`	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#=~,PNode,tuple[TNodeKind,seq[string]]	hast_common: `=~`(node: PNode; check: tuple[kind: TNodeKind, strVals: seq[string]]): bool	
+`=~`	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#=~,PNode,TNodeKind	hast_common: `=~`(node: PNode; kind: TNodeKind): bool	
+`=~`	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#=~,PNode,set[TNodeKind]	hast_common: `=~`(node: PNode; kind: set[TNodeKind]): bool	
+`=~`	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#=~,PNode,	hast_common: `=~`(node: PNode; check: (TNodeKind, string)): bool	
+`=~`	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#=~,PNode,string	hast_common: `=~`(node: PNode; check: string): bool	
+`=~`	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#=~,seq[PNode],array[R,TNodeKind]	hast_common: `=~`[R](nodes: seq[PNode]; kinds: array[R, TNodeKind]): bool	
+safeStrVal	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#safeStrVal,PNode	hast_common: safeStrVal(n: PNode): string	
+getIntVal	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#getIntVal,PNode	hast_common: getIntVal(n: PNode): BiggestInt	
+getIntVal	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#getIntVal,NimNode	hast_common: getIntVal(n: NimNode): BiggestInt	
+getStrVal	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#getStrVal,PSym	hast_common: getStrVal(s: PSym): string	
+dropStmtList	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#dropStmtList,PNode	hast_common: dropStmtList(p: PNode): PNode	
+toString	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#toString,NimNode	hast_common: toString(n: NimNode): string	
+toString	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#toString,PNode	hast_common: toString(p: PNode): string	
+toStr	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#toStr,,bool	hast_common: toStr(info: LineInfo | tuple[filename: string, line: int, column: int];\n      shortPath: bool = true): string	
+toShow	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#toShow,N	hast_common: toShow[N](node: N): string	
+subnodes	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#subnodes,PNode	hast_common: subnodes(p: PNode): seq[PNode]	
+subnodes	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#subnodes,NimNode	hast_common: subnodes(n: NimNode): seq[NimNode]	
+skipNil	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#skipNil,NimNode	hast_common: skipNil(n: NimNode): NimNode	
+nilToDiscard	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#nilToDiscard,NimNode	hast_common: nilToDiscard(n: NimNode): NimNode	
+toNK	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#toNK,NimNodeKind	hast_common: toNK(kind: NimNodeKind): TNodeKind	
+toNNK	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#toNNK,TNodeKind	hast_common: toNNK(kind: TNodeKind): NimNodeKind	
+toNNK	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#toNNK,NimNodeKind	hast_common: toNNK(kind: NimNodeKind): NimNodeKind	
+`==`	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#==,TNodeKind,NimNodeKind	hast_common: `==`(k1: TNodeKind; k2: NimNodeKind): bool	
+expectKind	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#expectKind,PNode,NimNodeKind	hast_common: expectKind(expr: PNode; kind: NimNodeKind): void	
+newTree	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newTree,NimNodeKind,seq[PNode]	hast_common: newTree(kind: NimNodeKind; subnodes: seq[PNode]): PNode	
+newAccQuoted	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newAccQuoted,varargs[NimNode]	hast_common: newAccQuoted(args: varargs[NimNode]): NimNode	
+newAccQuoted	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newAccQuoted,varargs[string]	hast_common: newAccQuoted(args: varargs[string]): NimNode	
+newPIdent	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPIdent,string	hast_common: newPIdent(str: string): PNode	
+newInfix	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newInfix,string,NimNode,NimNode	hast_common: newInfix(op: string; lhs, rhs: NimNode): NimNode	
+newPrefix	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPrefix,string,NimNode	hast_common: newPrefix(op: string; expr: NimNode): NimNode	
+newPrefix	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPrefix,string,PNode	hast_common: newPrefix(op: string; expr: PNode): PNode	
+newReturn	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newReturn,NimNode	hast_common: newReturn(expr: NimNode): NimNode	
+newNTree	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newNTree,NimNodeKind,varargs[NNode]	hast_common: newNTree[NNode: NimNode or PNode](kind: NimNodeKind; subnodes: varargs[NNode]): NNode	
+newReturn	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newReturn,N	hast_common: newReturn[N](expr: N): N	
+newRaise	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newRaise,N	hast_common: newRaise[N](expr: N): N	
+newStmtListExpr	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newStmtListExpr,varargs[N]	hast_common: newStmtListExpr[N](args: varargs[N]): N	
+newNIdent	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newNIdent,string	hast_common: newNIdent[NNode](str: string): NNode	
+newNIdent	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newNIdent,N	hast_common: newNIdent[N](n: N): N	
+newDiscardStmt	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newDiscardStmt,N	hast_common: newDiscardStmt[N](expr: N): N	
+newDiscardStmt	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newDiscardStmt	hast_common: newDiscardStmt(): NimNode	
+newPTree	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPTree,NimNodeKind,varargs[PNode]	hast_common: newPTree(kind: NimNodeKind; subnodes: varargs[PNode]): PNode	
+newCommentStmtNNode	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newCommentStmtNNode,string	hast_common: newCommentStmtNNode[NNode](comment: string): NNode	
+addPositionComment	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#addPositionComment.t,N,string	hast_common: addPositionComment[N](node: N; msg: string = &quot;&quot;): untyped	
+addPositionEcho	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#addPositionEcho.t,N,string	hast_common: addPositionEcho[N](node: N; msg: string = &quot;&quot;): untyped	
+newPositionPComment	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPositionPComment.t	hast_common: newPositionPComment(pos: LineInfo |\n    tuple[filename: string, line: int, column: int]): untyped	
+newEmptyNNode	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newEmptyNNode	hast_common: newEmptyNNode[NNode](): NNode	
+newEmptyPNode	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newEmptyPNode	hast_common: newEmptyPNode(): PNode	
+newPLit	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPLit,int	hast_common: newPLit(i: int): PNode	
+newPLit	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPLit,BiggestInt	hast_common: newPLit(i: BiggestInt): PNode	
+newPLit	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPLit	hast_common: newPLit(n: typeof(nil)): PNode	
+newPLit	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPLit,bool	hast_common: newPLit(b: bool): PNode	
+newPLit	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPLit,char	hast_common: newPLit(c: char): PNode	
+newPLit	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPLit,float	hast_common: newPLit(f: float): PNode	
+newPLit	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPLit,string	hast_common: newPLit(i: string): PNode	
+newPLit	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPLit_2	hast_common: newPLit(e: enum): PNode	
+newPLit	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPLit,set[T]	hast_common: newPLit[T](s: set[T]): PNode	
+newLit	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newLit,set[T]	hast_common: newLit[T](s: set[T]): NimNode	
+newRStrLit	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newRStrLit,string	hast_common: newRStrLit(st: string): PNode	
+toStrLit	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#toStrLit,PNode	hast_common: toStrLit(node: PNode): PNode	
+lineIInfo	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#lineIInfo,NimNode	hast_common: lineIInfo(node: NimNode): NimNode	
+newPIdentColonString	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPIdentColonString,string,string	hast_common: newPIdentColonString(key, value: string): PNode	
+newExprColonExpr	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newExprColonExpr,PNode,PNode	hast_common: newExprColonExpr(key, value: PNode): PNode	
+newNNLit	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newNNLit.t,untyped	hast_common: newNNLit[NNode](val: untyped): untyped	
+newPTree	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPTree,NimNodeKind,string	hast_common: newPTree(kind: NimNodeKind; val: string): PNode	
+newPTree	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPTree,NimNodeKind,SomeInteger	hast_common: newPTree(kind: NimNodeKind; val: SomeInteger): PNode	
+toBracket	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#toBracket,seq[NimNode]	hast_common: toBracket(elems: seq[NimNode]): NimNode	
+toBracketSeq	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#toBracketSeq,seq[NimNode]	hast_common: toBracketSeq(elems: seq[NimNode]): NimNode	
+setPosition	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#setPosition,N,N	hast_common: setPosition[N](target: var N; source: N)	
+newIdent	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newIdent,string	hast_common: newIdent(str: string): NimNode	
+newDot	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newDot,N,string	hast_common: newDot[N: NimNode | PNode](self: N; name: string): N	
+newPar	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPar,N	hast_common: newPar[N](arg: N): N	
+newSet	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newSet,varargs[N]	hast_common: newSet[N](elements: varargs[N]): N	
+newDot	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newDot,N,N	hast_common: newDot[N](lhs, rhs: N): N	
+newBracketExpr	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newBracketExpr,N,varargs[N]	hast_common: newBracketExpr[N](lhs: N; rhs: varargs[N]): N	
+newExprColon	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newExprColon,N,N	hast_common: newExprColon[N](lhs, rhs: N): N	
+newExprEq	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newExprEq,N,N	hast_common: newExprEq[N](lhs, rhs: N): N	
+newCall	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newCall,N,string,varargs[N]	hast_common: newCall[N](arg1: N; name: string; args: varargs[N]): N	
+newWhile	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newWhile,N,varargs[N]	hast_common: newWhile[N](expr: N; body: varargs[N]): N	
+addArgument	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#addArgument,N,string,N	hast_common: addArgument[N](n: N; name: string; expr: N)	
+addPragma	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#addPragma,N,N	hast_common: addPragma[N](decl: N; prag: N)	
+newAnd	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newAnd,N,N	hast_common: newAnd[N](a, b: N): N	
+newOr	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newOr,N,N	hast_common: newOr[N](a, b: N): N	
+newNot	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newNot,N	hast_common: newNot[N](a: N): N	
+newBreak	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newBreak,NimNode	hast_common: newBreak(target: NimNode = newEmptyNode()): NimNode	
+wrapStmtList	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#wrapStmtList,varargs[N]	hast_common: wrapStmtList[N](nodes: varargs[N]): NimNode	
+newIf	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newIf,N,N,N	hast_common: newIf[N](cond, body: N; orElse: N = nil): N	
+newIfStmt	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newIfStmt,N,N,N	hast_common: newIfStmt[N](cond, body: N; orElse: N = nil): N	
+newWhen	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newWhen,N,N,N	hast_common: newWhen[N](cond, body: N; orElse: N = nil): N	
+newIfPStmt	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newIfPStmt	hast_common: newIfPStmt(): PNode	
+newIfNStmt	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newIfNStmt	hast_common: newIfNStmt(): NimNode	
+isEmptyNode	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#isEmptyNode,N	hast_common: isEmptyNode[N](node: N): bool	
+isEmptyNode	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#isEmptyNode,seq[N]	hast_common: isEmptyNode[N](nodes: seq[N]): bool	
+fixEmptyStmt	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#fixEmptyStmt,N	hast_common: fixEmptyStmt[N](node: N): N	
+newXCall	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newXCall,N,seq[N],seq[N]	hast_common: newXCall[N](head: N; args: seq[N] = @[]; generics: seq[N] = @[]): N	
+newXCall	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newXCall,string,N,varargs[N]	hast_common: newXCall[N: NimNode or PNode](head: string; arg1: N; other: varargs[N]): N	
+newNCall	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newNCall,string,varargs[NimNode]	hast_common: newNCall(head: string; args: varargs[NimNode]): NimNode	
+newPCall	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPCall,string,varargs[PNode]	hast_common: newPCall(head: string; args: varargs[PNode]): PNode	
+callTypeof	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#callTypeof,N	hast_common: callTypeof[N](head: N): N	
+flattenInfix	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#flattenInfix,N,string	hast_common: flattenInfix[N](inNode: N; infix: string): seq[N]	
+foldInfix	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#foldInfix,seq[N],string	hast_common: foldInfix[N](inNodes: seq[N]; infix: string): N	
+pprintCalls	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#pprintCalls,NimNode,int	hast_common: pprintCalls(node: NimNode; level: int): void	
+lispRepr	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#lispRepr,PType,bool,bool	hast_common: lispRepr(typ: PType; colored: bool = true; symkind: bool = true): ColoredText	
+treeRepr	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#treeRepr,PNode,bool,bool,bool,int,int,bool	hast_common: treeRepr(pnode: PNode; colored: bool = true; pathIndexed: bool = false;\n         positionIndexed: bool = true; maxdepth: int = 120; maxlen: int = 30;\n         lineInfo: bool = false): ColoredText	
+treeRepr1	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#treeRepr1,PNode,bool,bool,bool,int	hast_common: treeRepr1(pnode: PNode; colored: bool = true; pathIndexed: bool = false;\n          positionIndexed: bool = true; maxdepth: int = 120): ColoredText	
+EnumFieldDef	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#EnumFieldDef	hast_common: EnumFieldDef	
+EnumValueGroup	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#EnumValueGroup	hast_common: EnumValueGroup	
+splitEnumImpl	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#splitEnumImpl,N	hast_common: splitEnumImpl[N](impl: N): seq[EnumFieldDef[N]]	
+typeLispRepr	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#typeLispRepr,NimNode,bool	hast_common: typeLispRepr(node: NimNode; colored: bool = true): ColoredText	
+treeRepr1	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#treeRepr1,NimNode,bool,bool,bool,int,bool	hast_common: treeRepr1(pnode: NimNode; colored: bool = true; pathIndexed: bool = false;\n          positionIndexed: bool = true; maxdepth: int = 120;\n          lineInfo: bool = false): ColoredText	
+idxTreeRepr	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#idxTreeRepr,NimNode	hast_common: idxTreeRepr(inputNode: NimNode): string	
+makeInitCalls	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#makeInitCalls,T	hast_common: makeInitCalls[T](val: T): NimNode	
+makeInitAllFields	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#makeInitAllFields,T	hast_common: makeInitAllFields[T](val: T): NimNode	
+makeConstructAllFields	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#makeConstructAllFields,T	hast_common: makeConstructAllFields[T](val: T): NimNode	
+makeInitCalls	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#makeInitCalls,Table[A,B]	hast_common: makeInitCalls[A, B](table: Table[A, B]): NimNode	
+makeInitCalls	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#makeInitCalls,HashSet[A]	hast_common: makeInitCalls[A](hset: HashSet[A]): NimNode	
+valuesInRange	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#valuesInRange,N,N,EnumValueGroup[N]	hast_common: valuesInRange[N](lowVal, highVal: N; group: EnumValueGroup[N]): seq[\n    EnumFieldDef[N]]	
+flattenSet	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#flattenSet,N,Option[EnumValueGroup[N]]	hast_common: flattenSet[N](node: N; group: Option[EnumValueGroup[N]]): seq[N]	
+normalizeSet	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#normalizeSet,seq[N],EnumValueGroup[N]	hast_common: normalizeSet[N](nodes: seq[N]; group: EnumValueGroup[N]): N	
+normalizeSet	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#normalizeSet,N,EnumValueGroup[N],bool	hast_common: normalizeSet[N](node: N; group: EnumValueGroup[N]; forcebrace: bool = false): N	
+joinSets	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#joinSets,seq[NNode],EnumValueGroup[NNode]	hast_common: joinSets[NNode](nodes: seq[NNode]; group: EnumValueGroup[NNode]): NNode	
+parseEnumSet	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#parseEnumSet,NimNode,Table[string,set[Enum]]	hast_common: parseEnumSet[Enum](node: NimNode; namedSets: Table[string, set[Enum]] = initTable[\n    string, set[Enum]]()): set[Enum]	
+parseIdentName	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#parseIdentName,N	hast_common: parseIdentName[N](node: N): tuple[exported: bool, name: N]	
+addBranch	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#addBranch,N,,varargs[N]	hast_common: addBranch[N](main: var N; expr: N | seq[N]; body: varargs[N])	
+newNLit	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newNLit,T	hast_common: newNLit[N, T](item: T): N	
+newBracketExpr	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newBracketExpr,N,SomeInteger	hast_common: newBracketExpr[N](lhs: N; rhs: SomeInteger): N	
+newIn	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newIn,N,set[E]	hast_common: newIn[N; E: enum](a: N; b: set[E]): N	
+addBranch	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#addBranch,N,,varargs[N]_2	hast_common: addBranch[N](main: var N; expr: enum; body: varargs[N])	
+addBranch	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#addBranch,N,string,varargs[N]	hast_common: addBranch[N](main: var N; expr: string; body: varargs[N])	
+addBranch	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#addBranch,N,seq[string],varargs[N]	hast_common: addBranch[N](main: var N; expr: seq[string]; body: varargs[N])	
+addBranch	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#addBranch,N,set[E],varargs[N]	hast_common: addBranch[N, E](main: var N; expr: set[E]; body: varargs[N])	
+newAsgn	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newAsgn,string,N	hast_common: newAsgn[N](lhs: string; rhs: N): N	
+newAsgn	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newAsgn,N,N	hast_common: newAsgn[N](lhs, rhs: N): N	
+toPNode	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#toPNode,PNode	hast_common: toPNode(node: PNode): PNode	
+toPNode	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#toPNode,string	hast_common: toPNode(val: string): PNode	
+newCaseStmt	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newCaseStmt,N	hast_common: newCaseStmt[N](expr: N): N	
+newCase	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newCase,N	hast_common: newCase[N](expr: N): N	
+newTry	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newTry,N	hast_common: newTry[N](expr: N): N	
+newFor	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newFor,openArray[N],N,varargs[N]	hast_common: newFor[N](forVars: openArray[N]; expr: N; body: varargs[N]): N	
+newFor	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newFor,N,N,varargs[N]	hast_common: newFor[N](forvar, expr: N; body: varargs[N]): N	
+withPrivate	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#withPrivate,N,string,N,N,bool	hast_common: withPrivate[N](target: N; fieldName: string; fieldIdent, expr: N;\n               isRef: bool = false): N	
+compactCase	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#compactCase,N	hast_common: compactCase[N](caseNode: N): N	
+newPStmtList	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPStmtList,varargs[PNode]	hast_common: newPStmtList(args: varargs[PNode]): PNode	
+newBlock	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newBlock,varargs[N]	hast_common: newBlock[N](args: varargs[N]): N	
+newPBreak	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPBreak	hast_common: newPBreak(): PNode	
+newPDotExpr	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPDotExpr,,	hast_common: newPDotExpr(lhs, rhs: PNode | string): PNode	
+newPDotFieldExpr	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPDotFieldExpr,,	hast_common: newPDotFieldExpr(lhs, rhs: PNode | string): PNode	
+newPDotCall	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPDotCall,PNode,string,varargs[PNode]	hast_common: newPDotCall(main: PNode; callName: string; args: varargs[PNode]): PNode	
+newPDotCall	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#newPDotCall,string,string,varargs[PNode]	hast_common: newPDotCall(main: string; callName: string; args: varargs[PNode]): PNode	
+isObject	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#isObject,NimNode	hast_common: isObject(node: NimNode): bool	
+getDocComment	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#getDocComment,N	hast_common: getDocComment[N](node: N): string	
+getSomeBase	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#getSomeBase,N	hast_common: getSomeBase[N](node: N): Option[N]	
+eqIdent	_._/_._/_._/_._/_._/.nimble/pkgs/hnimast-0.3.37/hnimast/hast_common.html#eqIdent,PNode,string	hast_common: eqIdent(node: PNode; str: string): bool	

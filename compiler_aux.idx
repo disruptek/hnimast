@@ -1,0 +1,18 @@
+getInstallationPath	compiler_aux.html#getInstallationPath	compiler_aux: getInstallationPath(): AbsDir	
+getStdPath	compiler_aux.html#getStdPath	compiler_aux: getStdPath(): AbsDir	
+getFilePath	compiler_aux.html#getFilePath,ConfigRef,TLineInfo	compiler_aux: getFilePath(config: ConfigRef; info: TLineInfo): AbsFile	
+getFilePath	compiler_aux.html#getFilePath,ModuleGraph,PNode	compiler_aux: getFilePath(graph: ModuleGraph; node: PNode): AbsFile	
+getFilePath	compiler_aux.html#getFilePath,ModuleGraph,PSym	compiler_aux: getFilePath(graph: ModuleGraph; sym: PSym): AbsFile	
+isObjectDecl	compiler_aux.html#isObjectDecl,PNode	compiler_aux: isObjectDecl(node: PNode): bool	
+headSym	compiler_aux.html#headSym,PNode	compiler_aux: headSym(node: PNode): PSym	
+getPragma	compiler_aux.html#getPragma,PNode,string	compiler_aux: getPragma(n: PNode; name: string): Option[PNode]	
+typeHead	compiler_aux.html#typeHead,PNode	compiler_aux: typeHead(node: PNode): PNode	
+declHead	compiler_aux.html#declHead,PNode	compiler_aux: declHead(node: PNode): PNode	
+exprTypeSym	compiler_aux.html#exprTypeSym,PNode	compiler_aux: exprTypeSym(n: PNode): PSym	
+isExported	compiler_aux.html#isExported,PNode	compiler_aux: isExported(n: PNode): bool	
+effectSpec	compiler_aux.html#effectSpec,PNode,set[TSpecialWord]	compiler_aux: effectSpec(n: PNode; effectType: set[TSpecialWord]): PNode	
+effectSpec	compiler_aux.html#effectSpec,PSym,TSpecialWord	compiler_aux: effectSpec(sym: PSym; word: TSpecialWord): PNode	
+getEffects	compiler_aux.html#getEffects,PNode,int	compiler_aux: getEffects(node: PNode; effectPos: int): PNode	
+hash	compiler_aux.html#hash,PSym	compiler_aux: hash(s: PSym): Hash	
+newModuleGraph	compiler_aux.html#newModuleGraph,AbsFile,AbsDir,proc(ConfigRef,TLineInfo,string,Severity),bool,seq[string],proc(ConfigRef)	compiler_aux: newModuleGraph(file: AbsFile; path: AbsDir = getStdPath(); structuredErrorHook: proc (\n    config: ConfigRef; info: TLineInfo; msg: string; level: Severity) {.closure,\n    gcsafe.} = nil; useNimblePath: bool = false; symDefines: seq[string] = @[];\n               optionsConfig: proc (config: var ConfigRef) = nil): ModuleGraph	
+compileString	compiler_aux.html#compileString,string,AbsDir,seq[string],proc(ConfigRef)	compiler_aux: compileString(text: string; stdpath: AbsDir = getStdPath();\n              symDefines: seq[string] = @[];\n              optionsConfig: proc (config: var ConfigRef) = nil): PNode	

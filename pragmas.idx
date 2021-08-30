@@ -1,0 +1,23 @@
+Pragma	pragmas.html#Pragma	pragmas: Pragma	
+NPragma	pragmas.html#NPragma	pragmas: NPragma	
+PPragma	pragmas.html#PPragma	pragmas: PPragma	
+indexOf	pragmas.html#indexOf,Pragma[N],string	pragmas: indexOf[N](pragma: Pragma[N]; name: string): int	
+getElem	pragmas.html#getElem,NPragma,string	pragmas: getElem(pragma: NPragma; name: string): Option[NimNode]	
+hasElem	pragmas.html#hasElem,Pragma[N],string	pragmas: hasElem[N](pragma: Pragma[N]; name: string): bool	
+hasElem	pragmas.html#hasElem,Pragma[N],seq[string]	pragmas: hasElem[N](pragma: Pragma[N]; names: seq[string]): bool	
+getElem	pragmas.html#getElem,Option[NPragma],string	pragmas: getElem(optPragma: Option[NPragma]; name: string): Option[NimNode]	
+removeElement	pragmas.html#removeElement,Pragma[N],string	pragmas: removeElement[N](pragma: var Pragma[N]; name: string)	
+len	pragmas.html#len,Pragma[N]	pragmas: len[N](pragma: Pragma[N]): int	
+add	pragmas.html#add,Pragma[N],N	pragmas: add[N](pragma: var Pragma[N]; node: N)	
+clear	pragmas.html#clear,Pragma[N]	pragmas: clear[N](pragma: var Pragma[N])	
+newNNPragma	pragmas.html#newNNPragma	pragmas: newNNPragma[N](): Pragma[N]	
+parseSomePragma	pragmas.html#parseSomePragma,N	pragmas: parseSomePragma[N](node: N): Option[Pragma[N]]	
+parsePragma	pragmas.html#parsePragma,N	pragmas: parsePragma[N](node: N): Pragma[N]	
+newNPragma	pragmas.html#newNPragma,varargs[string]	pragmas: newNPragma(names: varargs[string]): NPragma	
+newPPragma	pragmas.html#newPPragma,varargs[string]	pragmas: newPPragma(names: varargs[string]): PPragma	
+newNPragma	pragmas.html#newNPragma,varargs[NimNode]	pragmas: newNPragma(names: varargs[NimNode]): NPragma	
+newPPragma	pragmas.html#newPPragma,varargs[PNode]	pragmas: newPPragma(names: varargs[PNode]): PPragma	
+toNNode	pragmas.html#toNNode,Pragma[N]	pragmas: toNNode[N](pragma: Pragma[N]): N	
+toNimNode	pragmas.html#toNimNode,NPragma	pragmas: toNimNode(pragma: NPragma): NimNode	
+createProcType	pragmas.html#createProcType,NimNode,NimNode,NPragma	pragmas: createProcType(p, b: NimNode; annots: NPragma): NimNode	
+`~&gt;`	pragmas.html#~>.m,untyped,untyped	pragmas: `~&gt;`(a, b: untyped): untyped	

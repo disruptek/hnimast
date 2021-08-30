@@ -1,0 +1,33 @@
+efvNone	enum_decl.html#efvNone	EnumFieldVal.efvNone	
+efvIdent	enum_decl.html#efvIdent	EnumFieldVal.efvIdent	
+efvOrdinal	enum_decl.html#efvOrdinal	EnumFieldVal.efvOrdinal	
+efvString	enum_decl.html#efvString	EnumFieldVal.efvString	
+efvOrdString	enum_decl.html#efvOrdString	EnumFieldVal.efvOrdString	
+EnumFieldVal	enum_decl.html#EnumFieldVal	enum_decl: EnumFieldVal	
+rtokInt	enum_decl.html#rtokInt	RTimeOrdinalKind.rtokInt	
+rtokBool	enum_decl.html#rtokBool	RTimeOrdinalKind.rtokBool	
+rtokChar	enum_decl.html#rtokChar	RTimeOrdinalKind.rtokChar	
+RTimeOrdinalKind	enum_decl.html#RTimeOrdinalKind	enum_decl: RTimeOrdinalKind	
+RTimeOrdinal	enum_decl.html#RTimeOrdinal	enum_decl: RTimeOrdinal	
+EnumField	enum_decl.html#EnumField	enum_decl: EnumField	
+EnumDecl	enum_decl.html#EnumDecl	enum_decl: EnumDecl	
+NEnumDecl	enum_decl.html#NEnumDecl	enum_decl: NEnumDecl	
+PEnumDecl	enum_decl.html#PEnumDecl	enum_decl: PEnumDecl	
+isEnum	enum_decl.html#isEnum,NimNode	enum_decl: isEnum(en: NimNode): bool	
+makeEnumField	enum_decl.html#makeEnumField,string,Option[NNode],string	enum_decl: makeEnumField[NNode](name: string; value: Option[NNode] = none(NNode);\n                     comment: string = &quot;&quot;): EnumField[NNode]	
+newPEnumDecl	enum_decl.html#newPEnumDecl,string,string,string,bool,Pragma[PNode],LineInfo	enum_decl: newPEnumDecl(name: string; docComment: string = &quot;&quot;; codeComment: string = &quot;&quot;;\n             exported: bool = true; pragma: Pragma[PNode] = Pragma[PNode]();\n             iinfo: LineInfo = defaultIInfo): EnumDecl[PNode]	
+addField	enum_decl.html#addField,EnumDecl[N],string,Option[N],string	enum_decl: addField[N](en: var EnumDecl[N]; name: string; value: Option[N] = none(N);\n            docComment: string = &quot;&quot;)	
+parseEnumField	enum_decl.html#parseEnumField,NNode	enum_decl: parseEnumField[NNode](fld: NNode): EnumField[NNode]	
+parseRTimeOrdinal	enum_decl.html#parseRTimeOrdinal,NNode	enum_decl: parseRTimeOrdinal[NNode](nnode: NNode): RTimeOrdinal	
+makeRTOrdinal	enum_decl.html#makeRTOrdinal,int	enum_decl: makeRTOrdinal(ival: int): RTimeOrdinal	
+makeRTOrdinal	enum_decl.html#makeRTOrdinal,BiggestInt	enum_decl: makeRTOrdinal(ival: BiggestInt): RTimeOrdinal	
+makeRTOrdinal	enum_decl.html#makeRTOrdinal,char	enum_decl: makeRTOrdinal(cval: char): RTimeOrdinal	
+toNNode	enum_decl.html#toNNode,RTimeOrdinal	enum_decl: toNNode[NNode](ro: RTimeOrdinal): NNode	
+toNNode	enum_decl.html#toNNode,EnumField[NNode]	enum_decl: toNNode[NNode](fld: EnumField[NNode]): NNode	
+toNNode	enum_decl.html#toNNode,EnumDecl[NNode],bool	enum_decl: toNNode[NNode](en: EnumDecl[NNode]; standalone: bool = false): NNode	
+parseEnumImpl	enum_decl.html#parseEnumImpl,NNode	enum_decl: parseEnumImpl[NNode](en: NNode): EnumDecl[NNode]	
+parseEnum	enum_decl.html#parseEnum,NNode	enum_decl: parseEnum[NNode: not enum](node: NNode): EnumDecl[NNode]	
+getEnumPref	enum_decl.html#getEnumPref,NimNode	enum_decl: getEnumPref(en: NimNode): string	
+enumPref	enum_decl.html#enumPref.m,typed	enum_decl: enumPref(a: typed): string	
+getEnumNames	enum_decl.html#getEnumNames,NimNode	enum_decl: getEnumNames(en: NimNode): seq[string]	
+enumNames	enum_decl.html#enumNames.m,typed	enum_decl: enumNames(en: typed): seq[string]	

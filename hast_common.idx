@@ -1,0 +1,206 @@
+`[]`	hast_common.html#[].t,PNode,HSlice[int,BackwardsIndex]	hast_common: `[]`(node: PNode; slice: HSlice[int, BackwardsIndex]): untyped	
+`?`	hast_common.html#?,PNode	hast_common: `?`(node: PNode): bool	
+`[]`	hast_common.html#[],PNode,int,set[TNodeKind]	hast_common: `[]`(node: PNode; idx: int; kinds: set[TNodeKind]): PNode	
+add	hast_common.html#add,PNode,seq[PNode]	hast_common: add(n: PNode; sub: seq[PNode])	
+nnkStrKinds	hast_common.html#nnkStrKinds	hast_common: nnkStrKinds	
+nnkStringKinds	hast_common.html#nnkStringKinds	hast_common: nnkStringKinds	
+nnkIntKinds	hast_common.html#nnkIntKinds	hast_common: nnkIntKinds	
+nnkFloatKinds	hast_common.html#nnkFloatKinds	hast_common: nnkFloatKinds	
+nnkLiteralKinds	hast_common.html#nnkLiteralKinds	hast_common: nnkLiteralKinds	
+nnkTokenKinds	hast_common.html#nnkTokenKinds	hast_common: nnkTokenKinds	
+nnkIdentKinds	hast_common.html#nnkIdentKinds	hast_common: nnkIdentKinds	
+nnkWrapTy	hast_common.html#nnkWrapTy	hast_common: nnkWrapTy	
+nnkProcKinds	hast_common.html#nnkProcKinds	hast_common: nnkProcKinds	
+dekTypeKinds	hast_common.html#dekTypeKinds	hast_common: dekTypeKinds	
+nnkProcDeclKinds	hast_common.html#nnkProcDeclKinds	hast_common: nnkProcDeclKinds	
+nnkDeclKinds	hast_common.html#nnkDeclKinds	hast_common: nnkDeclKinds	
+nkStrKinds	hast_common.html#nkStrKinds	hast_common: nkStrKinds	
+nkStringKinds	hast_common.html#nkStringKinds	hast_common: nkStringKinds	
+nkIntKinds	hast_common.html#nkIntKinds	hast_common: nkIntKinds	
+nkFloatKinds	hast_common.html#nkFloatKinds	hast_common: nkFloatKinds	
+nkLiteralKinds	hast_common.html#nkLiteralKinds	hast_common: nkLiteralKinds	
+nkTokenKinds	hast_common.html#nkTokenKinds	hast_common: nkTokenKinds	
+nkProcDeclKinds	hast_common.html#nkProcDeclKinds	hast_common: nkProcDeclKinds	
+nkStmtBlockKinds	hast_common.html#nkStmtBlockKinds	hast_common: nkStmtBlockKinds	
+nkIdentDeclKinds	hast_common.html#nkIdentDeclKinds	hast_common: nkIdentDeclKinds	
+nkAllDeclKinds	hast_common.html#nkAllDeclKinds	hast_common: nkAllDeclKinds	
+skProcDeclKinds	hast_common.html#skProcDeclKinds	hast_common: skProcDeclKinds	
+ProcDeclNode	hast_common.html#ProcDeclNode	hast_common: ProcDeclNode	
+asProcDecl	hast_common.html#asProcDecl,N	hast_common: asProcDecl[N](n: N): ProcDeclNode[N]	
+asNode	hast_common.html#asNode,ProcDeclNode[NimNode]	hast_common: asNode(decl: ProcDeclNode[NimNode]): NimNode	
+asNode	hast_common.html#asNode,ProcDeclNode[PNode]	hast_common: asNode(decl: ProcDeclNode[PNode]): PNode	
+name	hast_common.html#name,ProcDeclNode[N]	hast_common: name[N](decl: ProcDeclNode[N]): N	
+pattern	hast_common.html#pattern,ProcDeclNode[N]	hast_common: pattern[N](decl: ProcDeclNode[N]): N	
+genericParams	hast_common.html#genericParams,ProcDeclNode[N]	hast_common: genericParams[N](decl: ProcDeclNode[N]): N	
+params	hast_common.html#params,ProcDeclNode[N]	hast_common: params[N](decl: ProcDeclNode[N]): N	
+returnType	hast_common.html#returnType,ProcDeclNode[N]	hast_common: returnType[N](decl: ProcDeclNode[N]): N	
+argumentList	hast_common.html#argumentList,ProcDeclNode[N]	hast_common: argumentList[N](decl: ProcDeclNode[N]): seq[N]	
+body	hast_common.html#body,ProcDeclNode[N]	hast_common: body[N](decl: ProcDeclNode[N]): N	
+pragmas	hast_common.html#pragmas,ProcDeclNode[N]	hast_common: pragmas[N](decl: ProcDeclNode[N]): N	
+oakCaseOfBranch	hast_common.html#oakCaseOfBranch	ObjectAnnotKind.oakCaseOfBranch	
+oakObjectToplevel	hast_common.html#oakObjectToplevel	ObjectAnnotKind.oakObjectToplevel	
+oakObjectField	hast_common.html#oakObjectField	ObjectAnnotKind.oakObjectField	
+ObjectAnnotKind	hast_common.html#ObjectAnnotKind	hast_common: ObjectAnnotKind	
+currLInfo	hast_common.html#currLInfo.t	hast_common: currLInfo(): untyped	
+defaultIInfo	hast_common.html#defaultIInfo	hast_common: defaultIInfo	
+getInfo	hast_common.html#getInfo,NimNode	hast_common: getInfo(n: NimNode): LineInfo	
+getInfo	hast_common.html#getInfo,PNode	hast_common: getInfo(n: PNode): TLineInfo	
+dropPar1	hast_common.html#dropPar1,NimNode	hast_common: dropPar1(nn: NimNode): NimNode	
+`$!`	hast_common.html#$!,NimNode	hast_common: `$!`(n: NimNode): string	
+`$!`	hast_common.html#$!,PNode	hast_common: `$!`(n: PNode): string	
+`$`	hast_common.html#$,PNode	hast_common: `$`(n: PNode): string	
+`&amp;`	hast_common.html#&,PNode,string	hast_common: `&amp;`(n: PNode; str: string): PNode	
+getStrVal	hast_common.html#getStrVal,NimNode	hast_common: getStrVal(n: NimNode): string	
+getStrVal	hast_common.html#getStrVal,PNode,bool	hast_common: getStrVal(p: PNode; doRaise: bool = true): string	
+`=~`	hast_common.html#=~,PNode,tuple[TNodeKind,seq[string]]	hast_common: `=~`(node: PNode; check: tuple[kind: TNodeKind, strVals: seq[string]]): bool	
+`=~`	hast_common.html#=~,PNode,TNodeKind	hast_common: `=~`(node: PNode; kind: TNodeKind): bool	
+`=~`	hast_common.html#=~,PNode,set[TNodeKind]	hast_common: `=~`(node: PNode; kind: set[TNodeKind]): bool	
+`=~`	hast_common.html#=~,PNode,	hast_common: `=~`(node: PNode; check: (TNodeKind, string)): bool	
+`=~`	hast_common.html#=~,PNode,string	hast_common: `=~`(node: PNode; check: string): bool	
+`=~`	hast_common.html#=~,seq[PNode],array[R,TNodeKind]	hast_common: `=~`[R](nodes: seq[PNode]; kinds: array[R, TNodeKind]): bool	
+safeStrVal	hast_common.html#safeStrVal,PNode	hast_common: safeStrVal(n: PNode): string	
+getIntVal	hast_common.html#getIntVal,PNode	hast_common: getIntVal(n: PNode): BiggestInt	
+getIntVal	hast_common.html#getIntVal,NimNode	hast_common: getIntVal(n: NimNode): BiggestInt	
+getStrVal	hast_common.html#getStrVal,PSym	hast_common: getStrVal(s: PSym): string	
+dropStmtList	hast_common.html#dropStmtList,PNode	hast_common: dropStmtList(p: PNode): PNode	
+toString	hast_common.html#toString,NimNode	hast_common: toString(n: NimNode): string	
+toString	hast_common.html#toString,PNode	hast_common: toString(p: PNode): string	
+toStr	hast_common.html#toStr,,bool	hast_common: toStr(info: LineInfo | tuple[filename: string, line: int, column: int];\n      shortPath: bool = true): string	
+toShow	hast_common.html#toShow,N	hast_common: toShow[N](node: N): string	
+subnodes	hast_common.html#subnodes,PNode	hast_common: subnodes(p: PNode): seq[PNode]	
+subnodes	hast_common.html#subnodes,NimNode	hast_common: subnodes(n: NimNode): seq[NimNode]	
+skipNil	hast_common.html#skipNil,NimNode	hast_common: skipNil(n: NimNode): NimNode	
+nilToDiscard	hast_common.html#nilToDiscard,NimNode	hast_common: nilToDiscard(n: NimNode): NimNode	
+toNK	hast_common.html#toNK,NimNodeKind	hast_common: toNK(kind: NimNodeKind): TNodeKind	
+toNNK	hast_common.html#toNNK,TNodeKind	hast_common: toNNK(kind: TNodeKind): NimNodeKind	
+toNNK	hast_common.html#toNNK,NimNodeKind	hast_common: toNNK(kind: NimNodeKind): NimNodeKind	
+`==`	hast_common.html#==,TNodeKind,NimNodeKind	hast_common: `==`(k1: TNodeKind; k2: NimNodeKind): bool	
+expectKind	hast_common.html#expectKind,PNode,NimNodeKind	hast_common: expectKind(expr: PNode; kind: NimNodeKind): void	
+newTree	hast_common.html#newTree,NimNodeKind,seq[PNode]	hast_common: newTree(kind: NimNodeKind; subnodes: seq[PNode]): PNode	
+newAccQuoted	hast_common.html#newAccQuoted,varargs[NimNode]	hast_common: newAccQuoted(args: varargs[NimNode]): NimNode	
+newAccQuoted	hast_common.html#newAccQuoted,varargs[string]	hast_common: newAccQuoted(args: varargs[string]): NimNode	
+newPIdent	hast_common.html#newPIdent,string	hast_common: newPIdent(str: string): PNode	
+newInfix	hast_common.html#newInfix,string,NimNode,NimNode	hast_common: newInfix(op: string; lhs, rhs: NimNode): NimNode	
+newPrefix	hast_common.html#newPrefix,string,NimNode	hast_common: newPrefix(op: string; expr: NimNode): NimNode	
+newPrefix	hast_common.html#newPrefix,string,PNode	hast_common: newPrefix(op: string; expr: PNode): PNode	
+newReturn	hast_common.html#newReturn,NimNode	hast_common: newReturn(expr: NimNode): NimNode	
+newNTree	hast_common.html#newNTree,NimNodeKind,varargs[NNode]	hast_common: newNTree[NNode: NimNode or PNode](kind: NimNodeKind; subnodes: varargs[NNode]): NNode	
+newReturn	hast_common.html#newReturn,N	hast_common: newReturn[N](expr: N): N	
+newRaise	hast_common.html#newRaise,N	hast_common: newRaise[N](expr: N): N	
+newStmtListExpr	hast_common.html#newStmtListExpr,varargs[N]	hast_common: newStmtListExpr[N](args: varargs[N]): N	
+newNIdent	hast_common.html#newNIdent,string	hast_common: newNIdent[NNode](str: string): NNode	
+newNIdent	hast_common.html#newNIdent,N	hast_common: newNIdent[N](n: N): N	
+newDiscardStmt	hast_common.html#newDiscardStmt,N	hast_common: newDiscardStmt[N](expr: N): N	
+newDiscardStmt	hast_common.html#newDiscardStmt	hast_common: newDiscardStmt(): NimNode	
+newPTree	hast_common.html#newPTree,NimNodeKind,varargs[PNode]	hast_common: newPTree(kind: NimNodeKind; subnodes: varargs[PNode]): PNode	
+newCommentStmtNNode	hast_common.html#newCommentStmtNNode,string	hast_common: newCommentStmtNNode[NNode](comment: string): NNode	
+addPositionComment	hast_common.html#addPositionComment.t,N,string	hast_common: addPositionComment[N](node: N; msg: string = &quot;&quot;): untyped	
+addPositionEcho	hast_common.html#addPositionEcho.t,N,string	hast_common: addPositionEcho[N](node: N; msg: string = &quot;&quot;): untyped	
+newPositionPComment	hast_common.html#newPositionPComment.t	hast_common: newPositionPComment(pos: LineInfo |\n    tuple[filename: string, line: int, column: int]): untyped	
+newEmptyNNode	hast_common.html#newEmptyNNode	hast_common: newEmptyNNode[NNode](): NNode	
+newEmptyPNode	hast_common.html#newEmptyPNode	hast_common: newEmptyPNode(): PNode	
+newPLit	hast_common.html#newPLit,int	hast_common: newPLit(i: int): PNode	
+newPLit	hast_common.html#newPLit,BiggestInt	hast_common: newPLit(i: BiggestInt): PNode	
+newPLit	hast_common.html#newPLit	hast_common: newPLit(n: typeof(nil)): PNode	
+newPLit	hast_common.html#newPLit,bool	hast_common: newPLit(b: bool): PNode	
+newPLit	hast_common.html#newPLit,char	hast_common: newPLit(c: char): PNode	
+newPLit	hast_common.html#newPLit,float	hast_common: newPLit(f: float): PNode	
+newPLit	hast_common.html#newPLit,string	hast_common: newPLit(i: string): PNode	
+newPLit	hast_common.html#newPLit_2	hast_common: newPLit(e: enum): PNode	
+newPLit	hast_common.html#newPLit,set[T]	hast_common: newPLit[T](s: set[T]): PNode	
+newLit	hast_common.html#newLit,set[T]	hast_common: newLit[T](s: set[T]): NimNode	
+newRStrLit	hast_common.html#newRStrLit,string	hast_common: newRStrLit(st: string): PNode	
+toStrLit	hast_common.html#toStrLit,PNode	hast_common: toStrLit(node: PNode): PNode	
+lineIInfo	hast_common.html#lineIInfo,NimNode	hast_common: lineIInfo(node: NimNode): NimNode	
+newPIdentColonString	hast_common.html#newPIdentColonString,string,string	hast_common: newPIdentColonString(key, value: string): PNode	
+newExprColonExpr	hast_common.html#newExprColonExpr,PNode,PNode	hast_common: newExprColonExpr(key, value: PNode): PNode	
+newNNLit	hast_common.html#newNNLit.t,untyped	hast_common: newNNLit[NNode](val: untyped): untyped	
+newPTree	hast_common.html#newPTree,NimNodeKind,string	hast_common: newPTree(kind: NimNodeKind; val: string): PNode	
+newPTree	hast_common.html#newPTree,NimNodeKind,SomeInteger	hast_common: newPTree(kind: NimNodeKind; val: SomeInteger): PNode	
+toBracket	hast_common.html#toBracket,seq[NimNode]	hast_common: toBracket(elems: seq[NimNode]): NimNode	
+toBracketSeq	hast_common.html#toBracketSeq,seq[NimNode]	hast_common: toBracketSeq(elems: seq[NimNode]): NimNode	
+setPosition	hast_common.html#setPosition,N,N	hast_common: setPosition[N](target: var N; source: N)	
+newIdent	hast_common.html#newIdent,string	hast_common: newIdent(str: string): NimNode	
+newDot	hast_common.html#newDot,N,string	hast_common: newDot[N: NimNode | PNode](self: N; name: string): N	
+newPar	hast_common.html#newPar,N	hast_common: newPar[N](arg: N): N	
+newSet	hast_common.html#newSet,varargs[N]	hast_common: newSet[N](elements: varargs[N]): N	
+newDot	hast_common.html#newDot,N,N	hast_common: newDot[N](lhs, rhs: N): N	
+newBracketExpr	hast_common.html#newBracketExpr,N,varargs[N]	hast_common: newBracketExpr[N](lhs: N; rhs: varargs[N]): N	
+newExprColon	hast_common.html#newExprColon,N,N	hast_common: newExprColon[N](lhs, rhs: N): N	
+newExprEq	hast_common.html#newExprEq,N,N	hast_common: newExprEq[N](lhs, rhs: N): N	
+newCall	hast_common.html#newCall,N,string,varargs[N]	hast_common: newCall[N](arg1: N; name: string; args: varargs[N]): N	
+newWhile	hast_common.html#newWhile,N,varargs[N]	hast_common: newWhile[N](expr: N; body: varargs[N]): N	
+addArgument	hast_common.html#addArgument,N,string,N	hast_common: addArgument[N](n: N; name: string; expr: N)	
+addPragma	hast_common.html#addPragma,N,N	hast_common: addPragma[N](decl: N; prag: N)	
+newAnd	hast_common.html#newAnd,N,N	hast_common: newAnd[N](a, b: N): N	
+newOr	hast_common.html#newOr,N,N	hast_common: newOr[N](a, b: N): N	
+newNot	hast_common.html#newNot,N	hast_common: newNot[N](a: N): N	
+newBreak	hast_common.html#newBreak,NimNode	hast_common: newBreak(target: NimNode = newEmptyNode()): NimNode	
+wrapStmtList	hast_common.html#wrapStmtList,varargs[N]	hast_common: wrapStmtList[N](nodes: varargs[N]): NimNode	
+newIf	hast_common.html#newIf,N,N,N	hast_common: newIf[N](cond, body: N; orElse: N = nil): N	
+newIfStmt	hast_common.html#newIfStmt,N,N,N	hast_common: newIfStmt[N](cond, body: N; orElse: N = nil): N	
+newWhen	hast_common.html#newWhen,N,N,N	hast_common: newWhen[N](cond, body: N; orElse: N = nil): N	
+newIfPStmt	hast_common.html#newIfPStmt	hast_common: newIfPStmt(): PNode	
+newIfNStmt	hast_common.html#newIfNStmt	hast_common: newIfNStmt(): NimNode	
+isEmptyNode	hast_common.html#isEmptyNode,N	hast_common: isEmptyNode[N](node: N): bool	
+isEmptyNode	hast_common.html#isEmptyNode,seq[N]	hast_common: isEmptyNode[N](nodes: seq[N]): bool	
+fixEmptyStmt	hast_common.html#fixEmptyStmt,N	hast_common: fixEmptyStmt[N](node: N): N	
+newXCall	hast_common.html#newXCall,N,seq[N],seq[N]	hast_common: newXCall[N](head: N; args: seq[N] = @[]; generics: seq[N] = @[]): N	
+newXCall	hast_common.html#newXCall,string,N,varargs[N]	hast_common: newXCall[N: NimNode or PNode](head: string; arg1: N; other: varargs[N]): N	
+newNCall	hast_common.html#newNCall,string,varargs[NimNode]	hast_common: newNCall(head: string; args: varargs[NimNode]): NimNode	
+newPCall	hast_common.html#newPCall,string,varargs[PNode]	hast_common: newPCall(head: string; args: varargs[PNode]): PNode	
+callTypeof	hast_common.html#callTypeof,N	hast_common: callTypeof[N](head: N): N	
+flattenInfix	hast_common.html#flattenInfix,N,string	hast_common: flattenInfix[N](inNode: N; infix: string): seq[N]	
+foldInfix	hast_common.html#foldInfix,seq[N],string	hast_common: foldInfix[N](inNodes: seq[N]; infix: string): N	
+pprintCalls	hast_common.html#pprintCalls,NimNode,int	hast_common: pprintCalls(node: NimNode; level: int): void	
+lispRepr	hast_common.html#lispRepr,PType,bool,bool	hast_common: lispRepr(typ: PType; colored: bool = true; symkind: bool = true): ColoredText	
+treeRepr	hast_common.html#treeRepr,PNode,bool,bool,bool,int,int,bool	hast_common: treeRepr(pnode: PNode; colored: bool = true; pathIndexed: bool = false;\n         positionIndexed: bool = true; maxdepth: int = 120; maxlen: int = 30;\n         lineInfo: bool = false): ColoredText	
+treeRepr1	hast_common.html#treeRepr1,PNode,bool,bool,bool,int	hast_common: treeRepr1(pnode: PNode; colored: bool = true; pathIndexed: bool = false;\n          positionIndexed: bool = true; maxdepth: int = 120): ColoredText	
+EnumFieldDef	hast_common.html#EnumFieldDef	hast_common: EnumFieldDef	
+EnumValueGroup	hast_common.html#EnumValueGroup	hast_common: EnumValueGroup	
+splitEnumImpl	hast_common.html#splitEnumImpl,N	hast_common: splitEnumImpl[N](impl: N): seq[EnumFieldDef[N]]	
+typeLispRepr	hast_common.html#typeLispRepr,NimNode,bool	hast_common: typeLispRepr(node: NimNode; colored: bool = true): ColoredText	
+treeRepr1	hast_common.html#treeRepr1,NimNode,bool,bool,bool,int,bool	hast_common: treeRepr1(pnode: NimNode; colored: bool = true; pathIndexed: bool = false;\n          positionIndexed: bool = true; maxdepth: int = 120;\n          lineInfo: bool = false): ColoredText	
+idxTreeRepr	hast_common.html#idxTreeRepr,NimNode	hast_common: idxTreeRepr(inputNode: NimNode): string	
+makeInitCalls	hast_common.html#makeInitCalls,T	hast_common: makeInitCalls[T](val: T): NimNode	
+makeInitAllFields	hast_common.html#makeInitAllFields,T	hast_common: makeInitAllFields[T](val: T): NimNode	
+makeConstructAllFields	hast_common.html#makeConstructAllFields,T	hast_common: makeConstructAllFields[T](val: T): NimNode	
+makeInitCalls	hast_common.html#makeInitCalls,Table[A,B]	hast_common: makeInitCalls[A, B](table: Table[A, B]): NimNode	
+makeInitCalls	hast_common.html#makeInitCalls,HashSet[A]	hast_common: makeInitCalls[A](hset: HashSet[A]): NimNode	
+valuesInRange	hast_common.html#valuesInRange,N,N,EnumValueGroup[N]	hast_common: valuesInRange[N](lowVal, highVal: N; group: EnumValueGroup[N]): seq[\n    EnumFieldDef[N]]	
+flattenSet	hast_common.html#flattenSet,N,Option[EnumValueGroup[N]]	hast_common: flattenSet[N](node: N; group: Option[EnumValueGroup[N]]): seq[N]	
+normalizeSet	hast_common.html#normalizeSet,seq[N],EnumValueGroup[N]	hast_common: normalizeSet[N](nodes: seq[N]; group: EnumValueGroup[N]): N	
+normalizeSet	hast_common.html#normalizeSet,N,EnumValueGroup[N],bool	hast_common: normalizeSet[N](node: N; group: EnumValueGroup[N]; forcebrace: bool = false): N	
+joinSets	hast_common.html#joinSets,seq[NNode],EnumValueGroup[NNode]	hast_common: joinSets[NNode](nodes: seq[NNode]; group: EnumValueGroup[NNode]): NNode	
+parseEnumSet	hast_common.html#parseEnumSet,NimNode,Table[string,set[Enum]]	hast_common: parseEnumSet[Enum](node: NimNode; namedSets: Table[string, set[Enum]] = initTable[\n    string, set[Enum]]()): set[Enum]	
+parseIdentName	hast_common.html#parseIdentName,N	hast_common: parseIdentName[N](node: N): tuple[exported: bool, name: N]	
+addBranch	hast_common.html#addBranch,N,,varargs[N]	hast_common: addBranch[N](main: var N; expr: N | seq[N]; body: varargs[N])	
+newNLit	hast_common.html#newNLit,T	hast_common: newNLit[N, T](item: T): N	
+newBracketExpr	hast_common.html#newBracketExpr,N,SomeInteger	hast_common: newBracketExpr[N](lhs: N; rhs: SomeInteger): N	
+newIn	hast_common.html#newIn,N,set[E]	hast_common: newIn[N; E: enum](a: N; b: set[E]): N	
+addBranch	hast_common.html#addBranch,N,,varargs[N]_2	hast_common: addBranch[N](main: var N; expr: enum; body: varargs[N])	
+addBranch	hast_common.html#addBranch,N,string,varargs[N]	hast_common: addBranch[N](main: var N; expr: string; body: varargs[N])	
+addBranch	hast_common.html#addBranch,N,seq[string],varargs[N]	hast_common: addBranch[N](main: var N; expr: seq[string]; body: varargs[N])	
+addBranch	hast_common.html#addBranch,N,set[E],varargs[N]	hast_common: addBranch[N, E](main: var N; expr: set[E]; body: varargs[N])	
+newAsgn	hast_common.html#newAsgn,string,N	hast_common: newAsgn[N](lhs: string; rhs: N): N	
+newAsgn	hast_common.html#newAsgn,N,N	hast_common: newAsgn[N](lhs, rhs: N): N	
+toPNode	hast_common.html#toPNode,PNode	hast_common: toPNode(node: PNode): PNode	
+toPNode	hast_common.html#toPNode,string	hast_common: toPNode(val: string): PNode	
+newCaseStmt	hast_common.html#newCaseStmt,N	hast_common: newCaseStmt[N](expr: N): N	
+newCase	hast_common.html#newCase,N	hast_common: newCase[N](expr: N): N	
+newTry	hast_common.html#newTry,N	hast_common: newTry[N](expr: N): N	
+newFor	hast_common.html#newFor,openArray[N],N,varargs[N]	hast_common: newFor[N](forVars: openArray[N]; expr: N; body: varargs[N]): N	
+newFor	hast_common.html#newFor,N,N,varargs[N]	hast_common: newFor[N](forvar, expr: N; body: varargs[N]): N	
+withPrivate	hast_common.html#withPrivate,N,string,N,N,bool	hast_common: withPrivate[N](target: N; fieldName: string; fieldIdent, expr: N;\n               isRef: bool = false): N	
+compactCase	hast_common.html#compactCase,N	hast_common: compactCase[N](caseNode: N): N	
+newPStmtList	hast_common.html#newPStmtList,varargs[PNode]	hast_common: newPStmtList(args: varargs[PNode]): PNode	
+newBlock	hast_common.html#newBlock,varargs[N]	hast_common: newBlock[N](args: varargs[N]): N	
+newPBreak	hast_common.html#newPBreak	hast_common: newPBreak(): PNode	
+newPDotExpr	hast_common.html#newPDotExpr,,	hast_common: newPDotExpr(lhs, rhs: PNode | string): PNode	
+newPDotFieldExpr	hast_common.html#newPDotFieldExpr,,	hast_common: newPDotFieldExpr(lhs, rhs: PNode | string): PNode	
+newPDotCall	hast_common.html#newPDotCall,PNode,string,varargs[PNode]	hast_common: newPDotCall(main: PNode; callName: string; args: varargs[PNode]): PNode	
+newPDotCall	hast_common.html#newPDotCall,string,string,varargs[PNode]	hast_common: newPDotCall(main: string; callName: string; args: varargs[PNode]): PNode	
+isObject	hast_common.html#isObject,NimNode	hast_common: isObject(node: NimNode): bool	
+getDocComment	hast_common.html#getDocComment,N	hast_common: getDocComment[N](node: N): string	
+getSomeBase	hast_common.html#getSomeBase,N	hast_common: getSomeBase[N](node: N): Option[N]	
+eqIdent	hast_common.html#eqIdent,PNode,string	hast_common: eqIdent(node: PNode; str: string): bool	

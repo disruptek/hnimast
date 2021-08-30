@@ -1,0 +1,23 @@
+parsePackageInfoCfg	nimble_aux.html#parsePackageInfoCfg,string,string	nimble_aux: parsePackageInfoCfg(text: string; path: string = &quot;&lt;file&gt;&quot;): Option[PackageInfo]	
+NimsParseFail	nimble_aux.html#NimsParseFail	nimble_aux: NimsParseFail	
+ExtraPackageInfo	nimble_aux.html#ExtraPackageInfo	nimble_aux: ExtraPackageInfo	
+paravim	nimble_aux.html#paravim	 paravim	
+metar	nimble_aux.html#metar	 metar	
+plz	nimble_aux.html#plz	 plz	
+parsePackageInfoNims	nimble_aux.html#parsePackageInfoNims,string,Table[string,NimsParseFail],ExtraPackageInfo,string	nimble_aux: parsePackageInfoNims(text: string; fails: var Table[string, NimsParseFail];\n                     extra: var ExtraPackageInfo; path: string = &quot;&lt;file&gt;&quot;): Option[\n    PackageInfo]	
+parsePackageInfo	nimble_aux.html#parsePackageInfo,string,Table[string,NimsParseFail],ExtraPackageInfo,AbsFile	nimble_aux: parsePackageInfo(configText: string; fails: var Table[string, NimsParseFail];\n                 extra: var ExtraPackageInfo; path: AbsFile = AbsFile(&quot;&lt;file&gt;&quot;)): PackageInfo	
+parsePackageInfo	nimble_aux.html#parsePackageInfo,string,AbsFile	nimble_aux: parsePackageInfo(configText: string; path: AbsFile = AbsFile(&quot;&lt;file&gt;&quot;)): PackageInfo	
+getPackageInfo	nimble_aux.html#getPackageInfo,AbsFile,bool	nimble_aux: getPackageInfo(path: AbsFile; absPath: bool = true): PackageInfo	
+initDefaultNimbleOptions	nimble_aux.html#initDefaultNimbleOptions	nimble_aux: initDefaultNimbleOptions(): Options	
+nimbleSearchDir	nimble_aux.html#nimbleSearchDir	nimble_aux: nimbleSearchDir(): AbsDir	
+getRequires	nimble_aux.html#getRequires,AbsFile	nimble_aux: getRequires(file: AbsFile): seq[PkgTuple]	
+resolvePackage	nimble_aux.html#resolvePackage,PkgTuple	nimble_aux: resolvePackage(pkg: PkgTuple): AbsDir	
+findPackage	nimble_aux.html#findPackage,string,VersionRange,AbsDir,Options	nimble_aux: findPackage(name: string; version: VersionRange;\n            searchDir: AbsDir = nimbleSearchDir();\n            options: Options = initDefaultNimbleOptions()): Option[PackageInfo]	
+projectFile	nimble_aux.html#projectFile,PackageInfo	nimble_aux: projectFile(info: PackageInfo): AbsFile	
+projectPath	nimble_aux.html#projectPath,PackageInfo	nimble_aux: projectPath(info: PackageInfo): AbsDir	
+projectImportPath	nimble_aux.html#projectImportPath,PackageInfo	nimble_aux: projectImportPath(info: PackageInfo): AbsDir	
+resolveNimbleDeps	nimble_aux.html#resolveNimbleDeps,AbsFile,AbsDir,Options	nimble_aux: resolveNimbleDeps(file: AbsFile; searchDir: AbsDir = nimbleSearchDir();\n                  options: Options = initDefaultNimbleOptions()): seq[\n    PackageInfo]	
+fromMinimal	nimble_aux.html#fromMinimal,seq[PackageInfo]	nimble_aux: fromMinimal(packages: seq[PackageInfo]): seq[PackageInfo]	
+findNimbleFile	nimble_aux.html#findNimbleFile,AbsDir	nimble_aux: findNimbleFile(dir: AbsDir): Option[AbsFile]	
+getPackageInfo	nimble_aux.html#getPackageInfo,AbsDir,bool	nimble_aux: getPackageInfo(dir: AbsDir; absPath: bool = true): PackageInfo	
+getNimblePaths	nimble_aux.html#getNimblePaths,AbsFile,AbsDir	nimble_aux: getNimblePaths(file: AbsFile; searchDir: AbsDir = nimbleSearchDir()): seq[AbsDir]	

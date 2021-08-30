@@ -1,0 +1,41 @@
+CstPoint	cst_types.html#CstPoint	cst_types: CstPoint	
+CstRange	cst_types.html#CstRange	cst_types: CstRange	
+CstComment	cst_types.html#CstComment	cst_types: CstComment	
+CstNode	cst_types.html#CstNode	cst_types: CstNode	
+CstNodeObj	cst_types.html#CstNodeObj	cst_types: CstNodeObj	
+len	cst_types.html#len,CstNode	cst_types: len(main: CstNode): int	
+high	cst_types.html#high,CstNode	cst_types: high(main: CstNode): int	
+`[]`	cst_types.html#[],CstNode,IndexTypes	cst_types: `[]`(main: CstNode; index: IndexTypes): CstNode	
+`[]`	cst_types.html#[],CstNode,SliceTypes	cst_types: `[]`(main: CstNode; slice: SliceTypes): seq[CstNode]	
+`[]=`	cst_types.html#[]=,CstNode,IndexTypes,CstNode	cst_types: `[]=`(main: CstNode; index: IndexTypes; value: CstNode)	
+rpairs	cst_types.html#rpairs.i,CstNode	cst_types: rpairs(main: CstNode): (int, CstNode)	
+pairs	cst_types.html#pairs.i,CstNode	cst_types: pairs(main: CstNode): (int, CstNode)	
+pairs	cst_types.html#pairs.i,CstNode,SliceTypes	cst_types: pairs(main: CstNode; slice: SliceTypes): (int, CstNode)	
+ritems	cst_types.html#ritems.i,CstNode	cst_types: ritems(main: CstNode): CstNode	
+items	cst_types.html#items.i,CstNode	cst_types: items(main: CstNode): CstNode	
+items	cst_types.html#items.i,CstNode,SliceTypes	cst_types: items(main: CstNode; slice: SliceTypes): CstNode	
+has	cst_types.html#has,CstNode,int	cst_types: has(n`gensym2: CstNode; idx`gensym2: int): bool	
+`=~`	cst_types.html#=~,CstNode,TNodeKind	cst_types: `=~`(n`gensym2: CstNode; k`gensym2: TNodeKind): bool	
+`=~`	cst_types.html#=~,CstNode,	cst_types: `=~`(n`gensym2: CstNode; k`gensym2: set[TNodeKind]): bool	
+`=~`	cst_types.html#=~,CstNode,_2	cst_types: `=~`(n`gensym2: CstNode; sub`gensym2: openArray[TNodeKind]): bool	
+startPoint	cst_types.html#startPoint,CstNode	cst_types: startPoint(n`gensym6: CstNode): CstPoint	
+startPoint=	cst_types.html#startPoint=,CstNode,CstPoint	cst_types: startPoint=(n`gensym6: CstNode; value`gensym6: CstPoint)	
+endPoint	cst_types.html#endPoint,CstNode	cst_types: endPoint(n`gensym7: CstNode): CstPoint	
+endPoint=	cst_types.html#endPoint=,CstNode,CstPoint	cst_types: endPoint=(n`gensym7: CstNode; value`gensym7: CstPoint)	
+add	cst_types.html#add,CstNode,CstNode	cst_types: add(node: CstNode; other: CstNode)	
+add	cst_types.html#add,CstNode,openArray[CstNode]	cst_types: add(node: CstNode; other: openArray[CstNode])	
+getStrVal	cst_types.html#getStrVal,CstNode,bool	cst_types: getStrVal(p: CstNode; doRaise: bool = true): string	
+newEmptyCNode	cst_types.html#newEmptyCNode	cst_types: newEmptyCNode(): CstNode	
+add	cst_types.html#add,CstComment,string	cst_types: add(comm: var CstComment; str: string)	
+newNodeI	cst_types.html#newNodeI,TNodeKind,CstPoint,ref.seq[Token]	cst_types: newNodeI(kind: TNodeKind; point: CstPoint; base: ref seq[Token]): CstNode	
+newTreeI	cst_types.html#newTreeI,TNodeKind,CstPoint,ref.seq[Token],varargs[CstNode]	cst_types: newTreeI(kind: TNodeKind; info: CstPoint; base: ref seq[Token];\n         children: varargs[CstNode]): CstNode	
+transitionSubnodesKind	cst_types.html#transitionSubnodesKind,CstNode,range[]	cst_types: transitionSubnodesKind(n: CstNode; kind: range[nkComesFrom .. nkTupleConstr])	
+transitionIntKind	cst_types.html#transitionIntKind,CstNode,range[]	cst_types: transitionIntKind(n: CstNode; kind: range[nkCharLit .. nkUInt64Lit])	
+transitionNoneToSym	cst_types.html#transitionNoneToSym,CstNode	cst_types: transitionNoneToSym(n: CstNode)	
+startToken	cst_types.html#startToken,CstNode	cst_types: startToken(node: CstNode): Token	
+relIndent	cst_types.html#relIndent,CstNode,IndexTypes	cst_types: relIndent(node: CstNode; idx: IndexTypes): int	
+newProcNode	cst_types.html#newProcNode,TNodeKind,CstPoint,CstNode,CstNode,CstNode,CstNode,CstNode,CstNode,CstNode	cst_types: newProcNode(kind: TNodeKind; info: CstPoint; body: CstNode;\n            params, name, pattern, genericParams, pragmas, exceptions: CstNode): CstNode	
+`$`	cst_types.html#$,CstPoint	cst_types: `$`(point: CstPoint): string	
+treeRepr	cst_types.html#treeRepr,CstNode,HDisplayOpts,bool	cst_types: treeRepr(pnode: CstNode; opts: HDisplayOpts = defaultHDisplay;\n         withSize: bool = false): ColoredText	
+toFmtBlock	cst_types.html#toFmtBlock,CstNode	cst_types: toFmtBlock(node: CstNode): LytBlock	
+`$`	cst_types.html#$,CstNode	cst_types: `$`(node: CstNode): string	
